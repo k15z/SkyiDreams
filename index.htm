@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Skyi</title>
+    <meta charset="utf-8"/>
+    <link href="img/favicon.png" rel="icon"/>
+    <link href="css/kube.min.css" rel="stylesheet" />
+    <script src="js/vue.min.js" type="text/javascript"></script>
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <style>
+        body {
+            position: absolute;
+            top: 0; bottom: 0;
+            left: 0; right: 0;
+        }
+        
+        #sidebar {
+            position: fixed;
+            top: 0; bottom: 0;
+            left: 0; width: 54px;
+            background-color: #eee;
+        }
+        
+        #sidebar header {
+            margin: 12px;
+        }
+        
+        #sidebar header:hover {
+            opacity: 0.8;
+        }
+        
+        main {
+            padding: 12px;
+            position: absolute;
+            top: 0; bottom: 0;
+            left: 54px; right: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="sidebar">
+        <a href=".">
+            <header>
+                <img src="img/logo.png"/>
+            </header>
+        </a>
+        <hr/>
+    </div>
+    <main>
+        <h1>Skyi Dreams</h1>
+        <row>
+            <column cols="12">
+                <p>
+                    This page shows off some of the dreams created by the Skyi Dreams project. These dreams 
+                    were created by training a neural network (autoencoder) and then feeding random vectors 
+                    into the hidden layer. The neural network 
+                </p>
+                <blocks cols="3">
+                    <div>
+                        <img src="data/dream.1.png" />
+                    </div>
+                    <div>
+                        <img src="data/dream.2.png" />
+                    </div>
+                    <div>
+                        <img src="data/dream.3.png" />
+                    </div>
+                    <div>
+                        <img src="data/dream.4.png" />
+                    </div>
+                    <div>
+                        <img src="data/dream.5.png" />
+                    </div>
+                    <div>
+                        <img src="data/dream.6.png" />
+                    </div>
+                    <div>
+                        <img src="data/dream.7.png" />
+                    </div>
+                    <div>
+                        <img src="data/dream.8.png" />
+                    </div>
+                </blocks>
+            </column>
+        </row>
+    </main>
+    <script>
+    </script>
+</body>
+</html>
